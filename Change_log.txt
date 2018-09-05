@@ -1,0 +1,10 @@
+v1.0 --> v2.0
+
+00z At Price.mq4 v2.0 is the current (Sep 5, 2018) version as published on Forex Factory.
+Please visit the Thread at http://www.forexfactory.com/showthread.php?t=389386
+
+Text object "text" renamed to "obj".
+"obj" creation and updating done in single code block (lsn 87-90)
+Only changed properties update when the initial if(!ObjectSet test returns "true".
+Any manipulation of the text box by user will be negated on next tick, as correct properties are restored.
+Deleted, the box will be recreated. Moved, it will snap back to position, etc.
