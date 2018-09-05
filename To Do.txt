@@ -1,0 +1,6 @@
+v2.0 --> v?
+
+-Refresh code to current best practice.
+-Textbox "obj" managed by Function()
+-Add use of current native z-score calls and give user choice of data source.
+-Experiment w. finer, possibly graduated coloring according to z-score value.
